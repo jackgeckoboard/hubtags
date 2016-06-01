@@ -1,2 +1,7 @@
-document.write('Hello Frontend Masters!')
+window.app = {
+  init () {
+    
+  }
+}
 
+window.app.init()
