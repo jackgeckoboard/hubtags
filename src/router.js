@@ -8,11 +8,12 @@ export default Router.extend({
   renderPage(page, opts = {layout: true}){
     //If the page has layout included, render the page within the Layout script, otherwise, just render the page
     // Options is an object because it reads better
+
     if (opts.layout) {
       page = (
-        <Layout>
-          {page}
-        </Layout>
+          <Layout>
+            {page}
+          </Layout>
       )
     }
 
